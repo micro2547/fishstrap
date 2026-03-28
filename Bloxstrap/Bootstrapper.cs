@@ -1606,9 +1606,6 @@ namespace Bloxstrap
                     continue;
 
                 if (relativeFile.EndsWith(".lock"))
-                    continue;
-
-                if (relativeFile.EndsWith(".mesh"))
                 {
                     App.Logger.WriteLine(LOG_IDENT, $"Skipping file: {relativeFile}");
                     continue;
