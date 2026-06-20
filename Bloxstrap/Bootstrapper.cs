@@ -1590,10 +1590,6 @@ namespace Bloxstrap
 
                 if (relativeFile.EndsWith(".lock"))
                     continue;
-
-                bool isBlacklisted = relativeFile.Contains("content\\avatar\\heads") || relativeFile.Contains("content\\avatar\\compositing") || relativeFile.Contains("content\\avatar\\meshes");
-
-                if (relativeFile.EndsWith(".mesh") && isBlacklisted)
                 {
                     App.Logger.WriteLine(LOG_IDENT, $"Skipping file: {relativeFile}");
                     continue;
