@@ -734,7 +734,7 @@ namespace Bloxstrap
 
                 try
                 {
-                    if (App.Settings.Prop.EnableBetterMatchmaking && _joinData.JoinType != GameJoinType.RequestPrivateGame && _joinData.PlaceId != null && !isFollowUser)
+                    if (App.Settings.Prop.EnableBetterMatchmaking && _joinData.JoinType == GameJoinType.RequestGame && _joinData.PlaceId != null && !isFollowUser)
                     {
                         string serverid = await GetBetterMatchmakingServerID();
                         string placeLauncherUrl = UrlBuilder.BuildPlacelauncherUrl((long)_joinData.PlaceId, serverid);
