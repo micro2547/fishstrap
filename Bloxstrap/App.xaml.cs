@@ -18,11 +18,11 @@ namespace Bloxstrap
 #else
         public const string ProjectName = "Fishstrap";
 #endif
-        public const string ProjectOwner = "returnrqt";
+        public const string ProjectOwner = "micro2547";
         public const string ProjectRepository = "micro2547/fishstrap";
         public const string ProjectDownloadLink = "https://github.com/micro2547/fishstrap/releases";
         public const string ProjectHelpLink = "https://github.com/bloxstraplabs/bloxstrap/wiki";
-        public const string ProjectSupportLink = "https://github.com/returnrqt/fishstrap/issues/new";
+        public const string ProjectSupportLink = "https://github.com/micro2547/fishstrap/issues/new";
         public const string ProjectRemoteDataLink = "https://config.fishstrap.app/v1/Data.json";
 
         public const string RobloxPlayerAppName = "RobloxPlayerBeta.exe";
