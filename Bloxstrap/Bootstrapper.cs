@@ -1593,7 +1593,6 @@ namespace Bloxstrap
                     continue;
 
                 if (relativeFile.EndsWith(".lock"))
-                    continue;
                 {
                     App.Logger.WriteLine(LOG_IDENT, $"Skipping file: {relativeFile}");
                     continue;
